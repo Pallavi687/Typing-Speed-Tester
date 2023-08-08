@@ -36,9 +36,9 @@ const Footer = () => {
     window.open("https://www.facebook.com/pallavi.khadse.39", '_blank');
   }
   
-  const handleDocs = () =>{
-    window.open("https://docs.google.com/spreadsheets/d/1rncRo0gXAHn4xwrA6dZSCqpN0xz5dLyBqPsST0BJbSA/edit?usp=sharing", '_blank');
-  }
+  // const handleDocs = () =>{
+  //   window.open("https://docs.google.com/spreadsheets/d/1rncRo0gXAHn4xwrA6dZSCqpN0xz5dLyBqPsST0BJbSA/edit?usp=sharing", '_blank');
+  // }
 
   const handleInstagram = () =>{
     window.open("https://www.instagram.com/pallavikhadse91/", '_blank');
@@ -51,7 +51,7 @@ const Footer = () => {
         <LinkedInIcon style={iconStyle} onClick={handleLinkedin} />
         <FacebookIcon style={iconStyle} onClick={handleFacebook} />
         <InstagramIcon style={iconStyle} onClick={handleInstagram} />
-        <DocumentScannerIcon style={iconStyle} onClick={handleDocs} />
+        {/* <DocumentScannerIcon style={iconStyle} onClick={handleDocs} /> */}
       </div>
       <div className="copyright">
         Copyright &#169; by Pallavi Khadse

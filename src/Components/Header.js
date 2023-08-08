@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <div className="header">
       <div className="logo" onClick={handleHome}>
-        Speed<span>Tester</span>
+        Typing Speed<span>Tester</span>
       </div>
       <div className="user-icon">
         {/* user icon  */}
